@@ -1,0 +1,43 @@
+.ngx-search {
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+}
+
+.ngx-search * {
+  font-size: inherit;
+}
+
+.ngx-search>.ngx-search-input {
+  color: inherit;
+  background-color: inherit;
+  padding: 0 16px;
+  height: 36px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+}
+
+.ngx-search>.ngx-search-input:focus {
+  outline: none;
+  border-color: #6495ED;
+}
+
+.ngx-search>.ngx-search-input:focus::-webkit-input-placeholder {
+  color: #6495ED;
+}
+
+.ngx-search>.ngx-search-input:focus::-moz-placeholder {
+  color: #6495ED;
+}
+
+.ngx-search>.ngx-search-input:focus::-ms-placeholder {
+  color: #6495ED;
+}
+
+.ngx-search>.ngx-search-input:focus::placeholder {
+  color: #6495ED;
+}
+

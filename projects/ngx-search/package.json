@@ -1,0 +1,12 @@
+{
+  "name": "ngx-search",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/forms": "^6.0.0-rc.0 || ^6.0.0",
+    "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.2.2",
+    "bootstrap": "^3.3.7"
+  }
+}

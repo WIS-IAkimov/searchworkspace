@@ -1,0 +1,20 @@
+:host ::ng-deep .search {
+  > .ngx-search-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding-left: 24px;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 0;
+    padding-bottom: 4px;
+  }
+
+  &:focus-within {
+    .search-icon {
+      color: #6495ED;
+    }
+  }
+}

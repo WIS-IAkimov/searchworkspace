@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ngx-search [data]="search"
+                  [searchClass]="'search'"
+                  [placeholder]="'Enter text'"
+                  (onValueChange)="changeValue($event)"
+      >
+        <ng-template ngxIconTemplateDirective>
+          <i class="fa fa-search search-icon"></i>
+        </ng-template>
+      </ngx-search>
+    </div>
+    <div class="col">
+      <pre>{{search}}</pre>
+    </div>
+  </div>
+</div>
+

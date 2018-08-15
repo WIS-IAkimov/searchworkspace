@@ -1,0 +1,13 @@
+<div class="ngx-search" [ngClass]="searchClass">
+
+  <ng-container [ngTemplateOutlet]="iconTemplate.template"></ng-container>
+  <input type="search"
+         class="ngx-search-input"
+         placeholder="{{placeholder}}"
+         [(ngModel)]="data"
+         [ngModelOptions]="{standalone: true}"
+         (keyup)="search()"
+         (blur)="emitAction('blur')"
+         (keyup.enter)="emitAction('onEnter')"
+  >
+</div>
